@@ -1,0 +1,27 @@
+@base <http://simonrbg.github.io/foaf/simon.ttl> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcc: <http://users.dcc.uchile.cl/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+#prefix.cc
+
+<#yo> rdf:type foaf:Person .
+<#yo> foaf:name "Simon Rabourg" .
+<#yo> foaf:homepage <http://simonrbg.github.io/foaf> .
+<#yo> foaf:birthday "27-09".
+<#yo> foaf:age "22"^^xsd:integer .
+<#yo> foaf:gender "male"@en .
+<#yo> foaf:based_near <http://sws.geonames.org/3871336/> .
+
+#<#yo> foaf:knows <
+#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
+#<#yo> foaf:knows <
+#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
+#<#yo> foaf:knows <
+#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
+
+<> rdf:type foaf:Document .
+<> dc:title "Simon's FOAF Profile"@en .
+<> dc:date "2016-09-07"^^xsd:date .
+
