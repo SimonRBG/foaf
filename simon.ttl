@@ -29,7 +29,7 @@
 <#yo> foaf:interest wikidata:Q298 .
 <#yo> foaf:interest wikidata:Q41187 .
 
-<> rdf:type foaf:Document .
-<> dc:title "Simon's FOAF Profile"@en .
-<> dc:date "2016-09-11"^^xsd:date .
+<#yo> rdf:type foaf:Document .
+<#yo> dc:title "Simon's FOAF Profile"@en .
+<#yo> dc:date "2016-09-11"^^xsd:date .
 
