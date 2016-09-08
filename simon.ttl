@@ -4,24 +4,32 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcc: <http://users.dcc.uchile.cl/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
 #prefix.cc
 
 <#yo> rdf:type foaf:Person .
 <#yo> foaf:name "Simon Rabourg" .
-<#yo> foaf:homepage <http://simonrbg.github.io/foaf> .
+<#yo> foaf:homepage <https://fr.linkedin.com/in/simon-rabourg-9405455a> .
 <#yo> foaf:birthday "27-09".
 <#yo> foaf:age "22"^^xsd:integer .
 <#yo> foaf:gender "male"@en .
 <#yo> foaf:based_near <http://sws.geonames.org/3871336/> .
+<#yo> foaf:img <http://pm1.narvii.com/6150/1f0cd5e4ac158a56a094027ff0ec8cd87c8bb67c_hq.jpg> .
 
-#<#yo> foaf:knows <
-#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
-#<#yo> foaf:knows <
-#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
-#<#yo> foaf:knows <
-#http://users.dcc.uchile.cl/~dhernand/daniel.ttl#yo> .
+
+<#yo> foaf:knows <http://users.dcc.uchile.cl/ ... azar/dsalazar.ttl#yo> .
+<#yo> foaf:knows <http://users.dcc.uchile.cl/~jcapponi/jaime.ttl#yo> .
+<#yo> foaf:knows <http://users.dcc.uchile.cl/~dmadaria/diego.ttl#yo> .
+
+<#me> foaf:interest wikidata:Q5372 .
+<#me> foaf:interest wikidata:Q31683 .
+<#me> foaf:interest wikidata:Q622521 .
+<#me> foaf:interest wikidata:Q21198 .
+<#me> foaf:interest wikidata:Q142 .
+<#me> foaf:interest wikidata:Q298 .
+<#me> foaf:interest wikidata:Q41187 .
 
 <> rdf:type foaf:Document .
 <> dc:title "Simon's FOAF Profile"@en .
-<> dc:date "2016-09-07"^^xsd:date .
+<> dc:date "2016-09-11"^^xsd:date .
 
