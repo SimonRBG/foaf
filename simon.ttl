@@ -21,13 +21,13 @@
 <#yo> foaf:knows <http://users.dcc.uchile.cl/~jcapponi/jaime.ttl#yo> .
 <#yo> foaf:knows <http://users.dcc.uchile.cl/~dmadaria/diego.ttl#yo> .
 
-<#me> foaf:interest wikidata:Q5372 .
-<#me> foaf:interest wikidata:Q31683 .
-<#me> foaf:interest wikidata:Q622521 .
-<#me> foaf:interest wikidata:Q21198 .
-<#me> foaf:interest wikidata:Q142 .
-<#me> foaf:interest wikidata:Q298 .
-<#me> foaf:interest wikidata:Q41187 .
+<#yo> foaf:interest wikidata:Q5372 .
+<#yo> foaf:interest wikidata:Q31683 .
+<#yo> foaf:interest wikidata:Q622521 .
+<#yo> foaf:interest wikidata:Q21198 .
+<#yo> foaf:interest wikidata:Q142 .
+<#yo> foaf:interest wikidata:Q298 .
+<#yo> foaf:interest wikidata:Q41187 .
 
 <> rdf:type foaf:Document .
 <> dc:title "Simon's FOAF Profile"@en .
