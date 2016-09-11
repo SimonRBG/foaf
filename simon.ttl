@@ -28,6 +28,6 @@
 <#yo> foaf:interest wikidata:Q41187 .
 
 <> rdf:type foaf:Document .
-<> dc:title "Simon's FOAF Profile"@en .
+<> dc:title "Simon Rabourg's FOAF profile"@en .
 <> dc:date "2016-09-11"^^xsd:date .
 
