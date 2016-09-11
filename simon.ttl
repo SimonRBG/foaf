@@ -6,7 +6,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 #prefix.cc
-
 <#yo> rdf:type foaf:Person .
 <#yo> foaf:name "Simon Rabourg" .
 <#yo> foaf:homepage <https://fr.linkedin.com/in/simon-rabourg-9405455a> .
@@ -15,7 +14,6 @@
 <#yo> foaf:gender "male"@en .
 <#yo> foaf:based_near <http://sws.geonames.org/3871336/> .
 <#yo> foaf:img <http://pm1.narvii.com/6150/1f0cd5e4ac158a56a094027ff0ec8cd87c8bb67c_hq.jpg> .
-
 
 <#yo> foaf:knows <http://users.dcc.uchile.cl/ ... azar/dsalazar.ttl#yo> .
 <#yo> foaf:knows <http://users.dcc.uchile.cl/~jcapponi/jaime.ttl#yo> .
@@ -29,7 +27,7 @@
 <#yo> foaf:interest wikidata:Q298 .
 <#yo> foaf:interest wikidata:Q41187 .
 
-<#yo> rdf:type foaf:Document .
-<#yo> dc:title "Simon's FOAF Profile"@en .
-<#yo> dc:date "2016-09-11"^^xsd:date .
+<> rdf:type foaf:Document .
+<> dc:title "Simon's FOAF Profile"@en .
+<> dc:date "2016-09-11"^^xsd:date .
 
